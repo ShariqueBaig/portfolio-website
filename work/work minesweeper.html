@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="An interactive Minesweeper GUI application with multiple difficulty levels" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Sharique" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../assets/favicon/site.webmanifest">
+
+  <title>Minesweeper GUI Application</title>  
+
+<link href="../main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+
+<header>
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="../index.html" title="">01 : Home</a></li>
+          <li><a href="../works.html" title="">02 : Works</a></li>
+          <li><a href="../about.html" title="">03 : About me</a></li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
+</header>
+
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <!-- Main minesweeper interface image -->
+        <img style="display: block;
+        margin-left: auto;
+        margin-right: auto;" src="../assets/images/minesweeper/minesweeper.jpg" class="img-responsive" alt="Minesweeper GUI Main Interface">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">Interactive Minesweeper GUI Application</h1>
+          </div>
+          <p>Challenge yourself with this modern implementation of the classic Minesweeper game. Featuring multiple difficulty levels, intuitive controls, and a sleek interface, this GUI application brings the timeless puzzle game to life with enhanced features and smooth gameplay.</p>
+
+          <blockquote>
+            <p>"A fresh take on the classic Minesweeper game with three challenging difficulty levels and intuitive controls."</p>
+            <small class="pull-right">Project Overview</small>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Difficulty Levels Section -->
+      <div class="col-xs-12">
+        <div class="card-container">
+          <h3>Difficulty Levels</h3>
+          <div class="row">
+            <!-- beginner start-->
+            <div class="col-md-4">
+              <div class="text-center">
+                <h4>Beginner</h4>
+                <!-- <img src="../assets/images/minesweeper-beginner.jpg" class="img-responsive" alt="Beginner Level"> -->
+                <ul class="list-unstyled">
+                  <li>5x5 Grid</li>
+                  <!-- <li>10 Bombs</li> -->
+                  <li>10% Mine Density</li>
+                </ul>
+              </div>
+            </div>
+            <!-- beginner end -->
+            <!-- intermediate start -->
+            <div class="col-md-4">
+              <div class="text-center">
+                <h4>Intermediate</h4>
+                <!-- <img src="../assets/images/minesweeper-intermediate.jpg" class="img-responsive" alt="Intermediate Level"> -->
+                <ul class="list-unstyled">
+                  <li>6x6 Grid</li>
+                  <!-- <li>40 Bombs</li> -->
+                  <li>12.5% Mine Density</li>
+                </ul>
+              </div>
+            </div>
+            <!-- intermediate end -->
+            <!-- expert start -->
+            <div class="col-md-4">
+              <div class="text-center">
+                <h4>Expert</h4>
+                <!-- <img src="../assets/images/minesweeper-expert.jpg" class="img-responsive" alt="Expert Level"> -->
+                <ul class="list-unstyled">
+                  <li>7x7 Grid</li>
+                  <!-- <li>99 Bombs</li> -->
+                  <li>16.6% Mine Density</li>
+                </ul>
+              </div>
+            </div>
+            <!-- expert end -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Game Features Section -->
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <h3>Game Features</h3>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <!-- Gameplay screenshot -->
+            <img src="../assets/images/minesweeper/minesweeper gameplay.png" class="img-responsive" alt="Gameplay Features">
+            <p>Intuitive left-click to reveal cells and right-click to flag potential mines</p>
+          </div>
+          <!-- <div class="col-xs-12 col-md-6">
+            Victory screenshot
+            <img src="../assets/images/minesweeper-victory.jpg" class="img-responsive" alt="Victory Screen">
+            <p>Victory celebration with game statistics</p>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Additional Features -->
+      <div class="col-xs-12">
+        <div class="card-container">
+          <h3>Additional Features</h3>
+          <ul>
+            <li>Real-time timer to track your solving speed</li>
+            <li>Mine counter showing remaining unflagged mines</li>
+            <li>First-click protection - never hit a mine on your first move</li>
+            <li>Quick restart option for instant new games</li>
+            <li>High score tracking for each difficulty level</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Final wide screenshot -->
+      <div class="col-xs-12">
+        <img src="../assets/images/minesweeper-features.jpg" class="img-responsive" alt="Minesweeper GUI Features Overview">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© Sharique Baig 2025</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+
+<script type="text/javascript" src="../main.70a66962.js"></script></body>
+
+</html>

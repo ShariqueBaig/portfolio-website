@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="An interactive Game of Life GUI application with file input and random configuration modes" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Sharique" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+  <title>Game of Life GUI Application</title>  
+
+<link href="../main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+
+<header>
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="../index.html" title="">01 : Home</a></li>
+          <li><a href="../works.html" title="">02 : Works</a></li>
+          <li><a href="../about.html" title="">03 : About me</a></li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
+</header>
+
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <!-- Main Game of Life interface image -->
+        <img src="../assets/images/gameoflife/gameoflife.jpg" class="img-responsive" alt="Game of Life GUI Main Interface">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">Conway's Game of Life GUI Application</h1>
+          </div>
+          <p>Experience the fascinating world of cellular automata with this interactive implementation of Conway's Game of Life. This GUI application offers two distinct modes of operation, allowing you to explore both predefined patterns and random configurations, bringing the mathematical beauty of emergent behavior to life.</p>
+
+          <blockquote>
+            <p>"A visual journey through cellular automata, featuring both classic patterns and random explorations in Conway's Game of Life."</p>
+            <br>
+            <small class="pull-right">Project Overview</small>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Operation Modes Section -->
+      <div class="col-xs-12">
+        <div class="card-container">
+          <h3>Operation Modes</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="text-center">
+                <h4>File Input Mode</h4>
+                <img src="../assets/images/gameoflife-file.jpg" class="img-responsive" alt="File Input Mode">
+                <ul class="list-unstyled">
+                  <li>Load predefined patterns from files</li>
+                  <li>Support for various file formats</li>
+                  <li>Import classic Game of Life configurations</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="text-center">
+                <h4>Random Configuration Mode</h4>
+                <img src="../assets/images/gameoflife-random.jpg" class="img-responsive" alt="Random Configuration Mode">
+                <ul class="list-unstyled">
+                  <li>Customize grid dimensions for your simulation</li>
+                  <li>Generate random initial states</li>
+                  <li>Set iteration count for controlled simulation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Classic Patterns Section -->
+      <div class="col-xs-12">
+        <div class="card-container">
+          <h3>Classic Patterns</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <video class="img-responsive" controls>
+                <source src="../assets/images/gameoflife/cooper.webm" type="video/webm">
+                Your browser does not support video playback.
+              </video>
+              <p class="text-center">Glider Pattern</p>
+            </div>
+            <div class="col-md-4">
+              <video class="img-responsive" controls>
+                <source src="../assets/images/gameoflife/gosperglider.webm" type="video/webm">
+                Your browser does not support video playback.
+              </video>
+              <p class="text-center">Oscillator Pattern</p>
+            </div>
+            <div class="col-md-4">
+              <video class="img-responsive" controls>
+                <source src="../assets/images/gameoflife/cooper.webm" type="video/webm">
+                Your browser does not support video playback.
+              </video>
+              <p class="text-center">Spaceship Pattern</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <h3>Application Features</h3>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <!-- Configuration screenshot -->
+            <img src="../assets/images/gameoflife-config.jpg" class="img-responsive" alt="Configuration Interface">
+            <p>Intuitive interface for setting up initial configurations and parameters</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <!-- Simulation screenshot -->
+            <img src="../assets/images/gameoflife-simulation.jpg" class="img-responsive" alt="Simulation in Progress">
+            <p>Real-time visualization of cellular evolution with interactive controls</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Features -->
+      <div class="col-xs-12">
+        <div class="card-container">
+          <h3>Key Features</h3>
+          <ul>
+            <li>Fully customizable grid dimensions for random configurations</li>
+            <li>Comprehensive support for loading predefined patterns from files</li>
+            <li>Adjustable iteration count for precisely controlled simulations</li>
+            <li>Real-time visualization of cellular evolution with smooth animations</li>
+            <li>Intuitive pause and resume functionality for detailed observation</li>
+            <li>Step-by-step simulation option for analyzing pattern evolution</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Final wide screenshot -->
+      <div class="col-xs-12">
+        <img src="../assets/images/gameoflife-overview.jpg" class="img-responsive" alt="Game of Life GUI Overview">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© Sharique Baig 2025</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+
+<script type="text/javascript" src="../main.70a66962.js"></script></body>
+
+</html>
